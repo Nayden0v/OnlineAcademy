@@ -1,0 +1,15 @@
+.resume-popup {
+    display: none;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    padding: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  ​
+  input[type="checkbox"]:checked ~ .resume-popup {
+    display: block;
+  }
+  .task-list-item input[type="checkbox"]:checked ~ .task-title {
+    color: green;
+  }
